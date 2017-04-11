@@ -1,0 +1,31 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+<style>
+        td {
+     text-indent: 5px;
+ }</style>
+
+<ul class="nav nav-tabs">
+    <li role="presentation" class="active"><a href="/Buyers/Index">Home</a></li>
+    <li role="presentation"><a href="/Buyers/Contracts">Contracts</a></li>
+    <li role="presentation"><a href="/Buyers/Profile">Profile</a></li>
+</ul>
+ <div class="container">
+
+    <form>
+        <h2> Buyer Login</h2>
+    <table>
+        <tr>
+            <td> Username </td>  
+            <td><input type="text" name="Username"></td> </tr>
+        <tr>
+            <td> Password </td>
+            <td><input type="Password" name="Password"></td></tr>    
+    </table>
+        Remember Me? <input type="radio" name="rememberMe" value="Yes" value= "No" checked> Yes
+        <input type="radio" name="rememberMe" value="No"> No<br>
+        <br><br>
+        <input type="submit" value="Sign In">
+        </form>
+    </div>

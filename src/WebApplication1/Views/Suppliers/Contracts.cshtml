@@ -1,0 +1,108 @@
+﻿@{
+    ViewBag.Title = "Contracts";
+}
+
+<ul class="nav nav-tabs">
+    <li role="presentation"><a href="/Suppliers/Index">Home</a></li>
+    <li role="presentation" class="active"><a href="/Suppliers/Contracts">Contracts</a></li>
+    <li role="presentation"><a href="/Suppliers/Profile">Profile</a></li>
+    <li role="presentation"><a href="/Suppliers/Auction">Auction</a></li>
+</ul>
+
+<div class="container" >
+      <h2>Supplier Contracts </h2> 
+    <p> This is the Supplier/contracts page. Each supplier will have their own page. Here They will have the option of seeing Upcoming Contracts and Previous Contracts that the compay has won. There is also Tabs on the top of the page, which can be used to navigate to differnt pages.
+    </p>
+    <div class="panel-group" id="buyercontracts">
+    
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Upcoming Contracts</a>
+        </h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse in">
+        <div class="panel-body">
+            <div class="container">       <table class="table table-hover">
+    <thead>
+              <tr> 
+                  <th>Auction Date</th>
+                  <th>Start Date</th>
+                   <th>End Date</th>
+                    <th>Utility</th>
+                    <th>Account Number</th>
+                    <td> Account Type </td>
+                     <th>Average kWh</th>
+                     <th>FICO Score</th>
+                      <th>Bid</th>
+      </thead>
+      <tbody>
+          <tr>
+              <td>6/1/2017</td>
+              <td>7/1/2017</td>
+              <td>7/1/2018</td>
+              <td>AEP Energy</td>
+              <td> commerical </td>
+              <td>1234-567-89</td>
+              <td>152,000 kWh</td>
+              <td>705</td>
+              <td>$ -.-----/ kWh</td> </tr>
+          <tr>
+              <td>5/1/2017</td>
+              <td>6/1/2017</td>
+              <td>6/1/2018</td>
+              <td>Dayton Power & Light</td>
+              <td> commerical </td>
+              <td>2341-567-98</td>
+               <td>56,000 kWh</td>
+               <td>786</td>
+               <td>$ -.----- / kWh</td> </tr>
+                
+             </tbody>
+            
+            </table>
+            </div>
+      </div>
+    </div>
+    </div>
+    </div>
+
+    
+      <div class="panel-group" id="buyercontracts">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Contracts Won </a>
+        </h4>
+      </div>
+      <div id="collapse2" class="panel-collapse collapse in">
+        <div class="panel-body">
+            <div class="container">           
+  <table class="table table-hover">
+    <thead>
+              <tr>  <th>Auction Date</th>
+                    <th>Start Date</th>
+                    <th>End Date</th>
+                    <th>Utility</th>
+                    <th>Account Number</th>
+                    <th>Bid</th> </tr>
+      </thead>
+      <tbody>
+        
+              <tr> <td> 3/14/2017</td>
+               <td> DP&L Energy</td>
+                  <td> 1234-567-89</td>
+                  <td> $0.71/Kwh</td>
+                  </tr>
+                
+                </tbody>
+            
+            </table>
+            </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    
+        
+</div>

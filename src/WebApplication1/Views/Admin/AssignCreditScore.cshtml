@@ -1,0 +1,42 @@
+﻿@{
+    ViewBag.Title = "AssignCreditScore";
+}
+<h2>Assign Credit Score</h2>
+<ul class="nav nav-tabs">
+    <li role="presentation"><a href="/Admin/Index">Home</a></li>
+    <li role="presentation"><a href="/Admin/AuctionScheduler">Schedule Auction</a></li>
+    <li role="presentation" class="active"><a href="/Admin/AssignCreditScore">Assign Credit Score</a></li>
+</ul>
+
+ <table class="table table-striped">         
+     <thead><h4> Residental Users with Unassigned Credit Score </h4></thead>
+     <br>
+     <tbody>
+         <tr> <th>First Name </th> 
+              <th> Last Name </th> 
+              <th> Credit Score </th> </tr>    
+        <tr> <td> John </td>
+              <td> Doe</td>
+              <td><input type="text" name="Username"></td> </tr>  
+        <tr> <td> Jonny</td>
+               <td> AppleSeed</td>
+               <td><input type="text" name="Username"></td> </tr> 
+               </tbody>
+        <br>    
+        </table>
+         <table class="table table-striped">        
+             <thead><h4> Commercial Users with Unassigned Credit Score </h4></thead>
+             <tbody>
+           <tr> <th>Company Name </th> 
+                <th> Credit Score </th>  </tr>
+            <tr><td> AEP Energy</td>
+                <td><input type="text" name="Username"></td> </tr>
+            <tr> <td> XYZ Company </td>
+               <td><input type="text" name="Username"></td> </tr> 
+                </tbody>
+            </table>      
+    <form>
+        <br><br>
+        <button type="button" class="btn"> Submit Changes</button>   
+    </form>
+    </div>
