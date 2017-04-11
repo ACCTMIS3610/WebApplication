@@ -11,7 +11,7 @@ namespace WebApplication1.Controllers
     public class HomeController : Controller
     {
         //[AllowAnonymous]
-        public async Task<IActionResult> Index()
+        public IActionResult Index() //async Task<IActionResult> Index()
         {
             return View();
         }

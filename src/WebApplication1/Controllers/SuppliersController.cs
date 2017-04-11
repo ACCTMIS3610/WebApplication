@@ -18,16 +18,19 @@ namespace BestBIdEnergy.Controllers
             return View();
         }
 
+        [Authorize(Roles = "Supplier")]
         public IActionResult Profile()
         {
             return View();
         }
 
+        [Authorize(Roles = "Supplier")]
         public IActionResult Auction()
         {
             return View();
         }
 
+        [Authorize(Roles = "Supplier")]
         public IActionResult Contracts()
         {
             return View();

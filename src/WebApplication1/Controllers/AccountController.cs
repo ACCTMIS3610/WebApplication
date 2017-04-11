@@ -139,7 +139,7 @@ namespace WebApplication1.Controllers
 
         //
         // POST: /Account/ExternalLogin
-        [HttpPost]
+        /*[HttpPost]
         [AllowAnonymous]
         [ValidateAntiForgeryToken]
         public IActionResult ExternalLogin(string provider, string returnUrl = null)
@@ -224,7 +224,7 @@ namespace WebApplication1.Controllers
 
             ViewData["ReturnUrl"] = returnUrl;
             return View(model);
-        }
+        }*/
 
         // GET: /Account/ConfirmEmail
         [HttpGet]
