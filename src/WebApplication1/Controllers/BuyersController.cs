@@ -10,11 +10,12 @@ using WebApplication1.Models.AccountViewModels;
 
 namespace WebApplication1.Controllers
 {
-    [Authorize(WebApplication1.Models.AccountViewModels.LoginViewModel.Email = "happy@day.com")]
+    
     public class BuyersController : Controller
     {
         // GET: /<controller>/
-        public IActionResult Index()
+        [Authorize(Roles = "Buyer")]
+        public async Task<IActionResult> Index()
         {
             return View();
         }
